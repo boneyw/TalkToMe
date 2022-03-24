@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		86A2588227EA7BA1006EDAC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2588127EA7BA1006EDAC3 /* AppDelegate.swift */; };
 		86A2588427EA7BA1006EDAC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2588327EA7BA1006EDAC3 /* SceneDelegate.swift */; };
-		86A2588627EA7BA1006EDAC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2588527EA7BA1006EDAC3 /* ViewController.swift */; };
+		86A2588627EA7BA1006EDAC3 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2588527EA7BA1006EDAC3 /* ConversationsViewController.swift */; };
 		86A2588927EA7BA1006EDAC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A2588727EA7BA1006EDAC3 /* Main.storyboard */; };
 		86A2588B27EA7BA1006EDAC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A2588A27EA7BA1006EDAC3 /* Assets.xcassets */; };
 		86A2588E27EA7BA1006EDAC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A2588C27EA7BA1006EDAC3 /* LaunchScreen.storyboard */; };
+		86A2589D27EB443C006EDAC3 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2589C27EB443C006EDAC3 /* VideoPlayerViewController.swift */; };
+		86A2589F27EB445A006EDAC3 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A2589E27EB445A006EDAC3 /* NewConversationViewController.swift */; };
+		86A258A127EB446C006EDAC3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A258A027EB446C006EDAC3 /* LoginViewController.swift */; };
+		86A258A327EB4488006EDAC3 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A258A227EB4488006EDAC3 /* PhotoViewerViewController.swift */; };
+		86A258A527EB449B006EDAC3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A258A427EB449B006EDAC3 /* ProfileViewController.swift */; };
+		86A258A727EB44B6006EDAC3 /* RegViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A258A627EB44B6006EDAC3 /* RegViewController.swift */; };
+		86A258AA27EB4F2D006EDAC3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A258A927EB4F2D006EDAC3 /* Extensions.swift */; };
+		86A258AC27EBA2B9006EDAC3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86A258AB27EBA2B9006EDAC3 /* GoogleService-Info.plist */; };
+		86A258AE27ECEB02006EDAC3 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A258AD27ECEB02006EDAC3 /* DatabaseManager.swift */; };
+		88681A706F23DE93B29A91E4 /* Pods_TalkToMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17727EC5A9CF139F4112554B /* Pods_TalkToMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17727EC5A9CF139F4112554B /* Pods_TalkToMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkToMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B66F2FBF9309F46C55F380E /* Pods-TalkToMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe.release.xcconfig"; path = "Target Support Files/Pods-TalkToMe/Pods-TalkToMe.release.xcconfig"; sourceTree = "<group>"; };
+		3E0961177D487DFA1326005F /* Pods-TalkToMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe.debug.xcconfig"; path = "Target Support Files/Pods-TalkToMe/Pods-TalkToMe.debug.xcconfig"; sourceTree = "<group>"; };
 		86A2587E27EA7BA1006EDAC3 /* TalkToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86A2588127EA7BA1006EDAC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86A2588327EA7BA1006EDAC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		86A2588527EA7BA1006EDAC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86A2588527EA7BA1006EDAC3 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
 		86A2588827EA7BA1006EDAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86A2588A27EA7BA1006EDAC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86A2588D27EA7BA1006EDAC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86A2588F27EA7BA1006EDAC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A2589C27EB443C006EDAC3 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		86A2589E27EB445A006EDAC3 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		86A258A027EB446C006EDAC3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		86A258A227EB4488006EDAC3 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		86A258A427EB449B006EDAC3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		86A258A627EB44B6006EDAC3 /* RegViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegViewController.swift; sourceTree = "<group>"; };
+		86A258A927EB4F2D006EDAC3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		86A258AB27EBA2B9006EDAC3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		86A258AD27ECEB02006EDAC3 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88681A706F23DE93B29A91E4 /* Pods_TalkToMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,8 @@
 			children = (
 				86A2588027EA7BA1006EDAC3 /* TalkToMe */,
 				86A2587F27EA7BA1006EDAC3 /* Products */,
+				CA9070E32A55C182B3F708BD /* Pods */,
+				9545DEC7031DB0028A39FA37 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +81,105 @@
 		86A2588027EA7BA1006EDAC3 /* TalkToMe */ = {
 			isa = PBXGroup;
 			children = (
-				86A2588127EA7BA1006EDAC3 /* AppDelegate.swift */,
-				86A2588327EA7BA1006EDAC3 /* SceneDelegate.swift */,
-				86A2588527EA7BA1006EDAC3 /* ViewController.swift */,
-				86A2588727EA7BA1006EDAC3 /* Main.storyboard */,
-				86A2588A27EA7BA1006EDAC3 /* Assets.xcassets */,
-				86A2588C27EA7BA1006EDAC3 /* LaunchScreen.storyboard */,
 				86A2588F27EA7BA1006EDAC3 /* Info.plist */,
+				86A258AB27EBA2B9006EDAC3 /* GoogleService-Info.plist */,
+				86A2589A27EA7D67006EDAC3 /* Controllers */,
+				86A2589927EA7D4E006EDAC3 /* Resources */,
+				86A2589827EA7D41006EDAC3 /* Products */,
+				86A2589727EA7D25006EDAC3 /* Models */,
+				86A2589627EA7D0E006EDAC3 /* viewModel */,
+				86A2589527EA7D05006EDAC3 /* Views */,
 			);
 			path = TalkToMe;
+			sourceTree = "<group>";
+		};
+		86A2589527EA7D05006EDAC3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86A2589B27EA7D92006EDAC3 /* StoryBoard */,
+				86A2588A27EA7BA1006EDAC3 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		86A2589627EA7D0E006EDAC3 /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		86A2589727EA7D25006EDAC3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		86A2589827EA7D41006EDAC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		86A2589927EA7D4E006EDAC3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86A2588127EA7BA1006EDAC3 /* AppDelegate.swift */,
+				86A2588327EA7BA1006EDAC3 /* SceneDelegate.swift */,
+				86A258A927EB4F2D006EDAC3 /* Extensions.swift */,
+				86A258AD27ECEB02006EDAC3 /* DatabaseManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86A2589A27EA7D67006EDAC3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				86A2588527EA7BA1006EDAC3 /* ConversationsViewController.swift */,
+				86A2589C27EB443C006EDAC3 /* VideoPlayerViewController.swift */,
+				86A2589E27EB445A006EDAC3 /* NewConversationViewController.swift */,
+				86A258A827EB44CB006EDAC3 /* Login */,
+				86A258A227EB4488006EDAC3 /* PhotoViewerViewController.swift */,
+				86A258A427EB449B006EDAC3 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		86A2589B27EA7D92006EDAC3 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				86A2588727EA7BA1006EDAC3 /* Main.storyboard */,
+				86A2588C27EA7BA1006EDAC3 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		86A258A827EB44CB006EDAC3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				86A258A027EB446C006EDAC3 /* LoginViewController.swift */,
+				86A258A627EB44B6006EDAC3 /* RegViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		9545DEC7031DB0028A39FA37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17727EC5A9CF139F4112554B /* Pods_TalkToMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA9070E32A55C182B3F708BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E0961177D487DFA1326005F /* Pods-TalkToMe.debug.xcconfig */,
+				2B66F2FBF9309F46C55F380E /* Pods-TalkToMe.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86A2589227EA7BA1006EDAC3 /* Build configuration list for PBXNativeTarget "TalkToMe" */;
 			buildPhases = (
+				9B0CD84F24F309BFB2A10F9A /* [CP] Check Pods Manifest.lock */,
 				86A2587A27EA7BA1006EDAC3 /* Sources */,
 				86A2587B27EA7BA1006EDAC3 /* Frameworks */,
 				86A2587C27EA7BA1006EDAC3 /* Resources */,
+				3122709F570801DBBBBC354E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86A2588E27EA7BA1006EDAC3 /* LaunchScreen.storyboard in Resources */,
+				86A258AC27EBA2B9006EDAC3 /* GoogleService-Info.plist in Resources */,
 				86A2588B27EA7BA1006EDAC3 /* Assets.xcassets in Resources */,
 				86A2588927EA7BA1006EDAC3 /* Main.storyboard in Resources */,
 			);
@@ -133,13 +251,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3122709F570801DBBBBC354E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToMe/Pods-TalkToMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToMe/Pods-TalkToMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkToMe/Pods-TalkToMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0CD84F24F309BFB2A10F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkToMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86A2587A27EA7BA1006EDAC3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86A2588627EA7BA1006EDAC3 /* ViewController.swift in Sources */,
+				86A258A127EB446C006EDAC3 /* LoginViewController.swift in Sources */,
+				86A258AE27ECEB02006EDAC3 /* DatabaseManager.swift in Sources */,
+				86A2588627EA7BA1006EDAC3 /* ConversationsViewController.swift in Sources */,
+				86A2589D27EB443C006EDAC3 /* VideoPlayerViewController.swift in Sources */,
+				86A258A327EB4488006EDAC3 /* PhotoViewerViewController.swift in Sources */,
 				86A2588227EA7BA1006EDAC3 /* AppDelegate.swift in Sources */,
+				86A258AA27EB4F2D006EDAC3 /* Extensions.swift in Sources */,
+				86A2589F27EB445A006EDAC3 /* NewConversationViewController.swift in Sources */,
+				86A258A527EB449B006EDAC3 /* ProfileViewController.swift in Sources */,
+				86A258A727EB44B6006EDAC3 /* RegViewController.swift in Sources */,
 				86A2588427EA7BA1006EDAC3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +450,7 @@
 		};
 		86A2589327EA7BA1006EDAC3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E0961177D487DFA1326005F /* Pods-TalkToMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,6 +462,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +480,7 @@
 		};
 		86A2589427EA7BA1006EDAC3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B66F2FBF9309F46C55F380E /* Pods-TalkToMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,6 +492,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
