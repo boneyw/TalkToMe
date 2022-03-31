@@ -11,11 +11,16 @@ pod 'Firebase/Auth'
 pod 'Firebase/Database'
 
 # Facebook
-pod 'FBSDKLoginKit', '11.1.0'
+pod 'FBSDKLoginKit'
 
-#Google Signin
+#Google
 
 pod 'GoogleSignIn'
+
+pod 'MessageKit'
+pod 'JGProgressHUD'
+pod 'RealmSwift'
+pod 'SDWebImage'
     
     
 

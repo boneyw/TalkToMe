@@ -7,6 +7,8 @@
 
 import UIKit
 import FirebaseAuth
+import FBSDKLoginKit
+import GoogleSignIn
 
 class ProfileViewController: UIViewController {
     
@@ -23,7 +25,6 @@ class ProfileViewController: UIViewController {
         
         // Do any additional setup after loading the view.
     }
-    
     
 }
 extension ProfileViewController: UITableViewDelegate, UITableViewDataSource{
@@ -54,30 +55,26 @@ extension ProfileViewController: UITableViewDelegate, UITableViewDataSource{
             guard let strongSelf = self else {
                 return
             }
-            
-            
-            
-            do{
-                try FirebaseAuth.Auth.auth().signOut()
-                let vc = LoginViewController()
-                let nav = UINavigationController(rootViewController: vc)
-                nav.modalPresentationStyle = .fullScreen
-                strongSelf.present (nav, animated: false)
                 
-            }catch{
-                print("Failed to log in")
-            }
+                GIDSignIn.sharedInstance.signOut()
+                FBSDKLoginKit.LoginManager().logOut()
+                do{
+                    try FirebaseAuth.Auth.auth().signOut()
+                    let vc = LoginViewController()
+                    let nav = UINavigationController(rootViewController: vc)
+                    nav.modalPresentationStyle = .fullScreen
+                    strongSelf.present (nav, animated: false)
+                    
+                }catch{
+                    print("Failed to log in")
+                }
+            }))
             
+            actionSheet.addAction(UIAlertAction(title: "Cancel",
+                                                style: .cancel,
+                                                handler: nil))
             
-        }))
-        
-        actionSheet.addAction(UIAlertAction(title: "Cancel",
-                                            style: .cancel,
-                                            handler: nil))
-        
-        present(actionSheet,animated: true)
-        
-    }
-    
-    
+            present(actionSheet,animated: true)
+            
+        }
 }
